@@ -1,0 +1,20 @@
+.footer {
+    height: 580px;
+    position: relative;
+    &__info {
+        padding: 60px 50px;
+        background-color: #fff;
+        border-radius: 30px;
+        position: absolute;
+        top: 124px;
+        left: 245px;
+    }
+    &_social {
+        justify-content: center;
+        margin-top: 20px;
+    }
+    &_phone {
+        display: block;
+        margin-bottom: 38px;
+    }
+}

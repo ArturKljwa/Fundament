@@ -1,0 +1,68 @@
+.button {
+    @extend %font-prim;
+
+    @include font ($size:1.6rem, $height:29px, $weight: 400, $style: normal);
+    border-radius: 50px;
+    color: #020202;
+    padding: 25px 44px;
+        border: none;
+    &_funfoundation {
+        background-color: #efbc6f;;
+        @extend %font-add;
+        @include font ($size:2.5rem, $height:37px, $weight: 400, $style: normal);
+        color: #ffffff;
+
+        padding: 25px 44px;
+        border: none;
+    }
+    &_main-color {
+        margin-right: 31px;
+        background-color: $color_main;
+        box-shadow: 1px 16px 25px 7px rgba(127,217,168,0.27);
+    }
+    &_additional {
+        width: 295px;
+        border: 2px solid #78c39a;
+        background: rgba(236, 233, 247, 0.3);;
+        text-decoration: underline;
+        color: #59aa83;
+    }
+    &_step {
+        padding: 0;
+        display: block;
+        width: 250px;
+        height: 60px;
+        background-color: $color_main;
+    }
+&_build {
+    display: block;
+    margin: 0 auto;
+    margin-top: 63px;
+    padding: 5px 60px;
+    background-color:#ffffff;
+    border: 1px solid #73b993;;
+    color: $color_main;
+
+}
+ &_type {
+    margin-top: 40px;
+    margin-right: 25px;
+    padding: 0;
+    background-color: #f8861b;
+    font-size: 16.7px;
+    line-height: 29px;
+    font-weight: 400;
+    color: #ffffff;
+ }
+ &_choice {
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding: 15px 60px;
+ }
+ &_example {
+    margin-top: 69px;
+    display: block;
+    margin: 0 auto;
+ }
+}

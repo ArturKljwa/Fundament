@@ -1,0 +1,52 @@
+.example {
+    padding: 114px 0 0 0;
+    &__wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content:space-around;
+        padding: 80px 0 69px 0;
+    }
+    &__item {
+        position: relative;
+        height: 330px;
+        width: 45%;
+        border-radius: 20px;
+        margin-bottom: 40px;
+
+        &-1 {
+            background-image: url('../../img/example/1.png');
+        }
+        &-2 {
+            background-image: url('../../img/example/2.png');
+        }
+        &-3 {
+            background-image: url('../../img/example/3.png');
+        }
+        &-4 {
+            background-image: url('../../img/example/4.png');
+        }
+        &-5 {
+            background-image: url('../../img/example/5.png');
+        }
+        &-6 {
+            background-image: url('../../img/example/6.png');
+        }
+
+    }
+
+}
+.examlpe__item_text {
+    border-radius: 30px;
+    width: 231px;
+    padding: 21px 33px 18px 26px;
+    position: absolute;
+    bottom: 15px;
+    left: 16px;
+    font-family: 'Dela Gothic One';
+    font-size: 13px;
+    line-height: 26px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #060606;
+    background-color:#fff;
+}

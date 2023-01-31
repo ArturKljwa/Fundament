@@ -1,0 +1,23 @@
+.revies {
+    padding: 169px 0 0 0;
+    &__item {
+        position: relative;
+        margin-top: 90px;
+    }
+    &__item::before {
+        content: '';
+        display: block;
+        position: absolute;
+        top: 50%;
+        left: 36%;
+        transform: translateX(-50%);
+        transform: translateY(-50%);
+        width: 91px;
+        height: 91px;
+        background-color: $color_main;
+        border-radius: 100%;
+        background-image: url('../../img/icons/plus.png') ;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+}

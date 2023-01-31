@@ -1,0 +1,25 @@
+.social>a>span {
+    display: block;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+
+}
+.social {
+
+display: flex;
+
+
+        &__telegram {
+
+        margin-left: 70px;
+        display: block;
+        margin-left: 20px;
+background-image: url('../../img/icons/mess/telegram.png');
+    }
+      &__whatsapp {
+        margin-left: 11px;
+        background-image: url('../../img/icons/mess/whatsapp.png');
+    }
+
+}

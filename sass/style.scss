@@ -1,0 +1,34 @@
+//Abstract
+@import "abstract/variebles";
+@import "abstract/mixins";
+@import "abstract/placeholder";
+
+//Layouts
+@import "layouts/columns";
+@import "layouts/container";
+
+
+//Base
+@import "base/base";
+@import "base/color";
+@import "base/social";
+@import "base/button";
+@import "base/progress";
+@import "base/checkbox";
+
+
+//Blocks
+@import "blocks/header";
+@import "blocks/funfoundation";
+@import "blocks/problem";
+@import "blocks/cost";
+@import "blocks/build";
+@import "blocks/type";
+@import "blocks/choice";
+@import "blocks/example";
+@import "blocks/About";
+@import "blocks/teams";
+@import "blocks/revies";
+@import "blocks/working";
+@import "blocks/question";
+@import "blocks/footer";

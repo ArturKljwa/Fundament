@@ -1,0 +1,33 @@
+.build {
+    padding: 101px 0 0 0;
+    &__item {
+        position: relative;
+        width: 360px;
+        padding: 0 20px;
+        margin-top: 78px;
+        height: 570px;
+        box-shadow: 12px 23px 42px 9px rgba(193,216,208,0.1);
+        background-color: #ffffff;
+        border-radius: 30px;
+        img {
+            height: 210px;
+        }
+        &::before {
+            content: '';
+            position: absolute;
+            width: 32px;
+            height: 32px;
+            background-image: url('../../img/icons/info.png');
+            top: 24px;
+            right: 30px;
+        }
+    }
+    &_descr {
+        height: 130px;
+        margin-top: 30px;
+        font-size: 16.7px;
+        line-height: 25px;
+        font-weight: 400;
+        color: #1e1e1e;
+    }
+}

@@ -1,0 +1,24 @@
+.problem {
+    padding: 168px 0 0 0;
+    &__item {
+        background-color: #f7f7f7;
+        border-radius: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        &-content {
+            display: flex;
+            justify-content: space-around;
+
+        }
+
+    }
+    &_number {
+        margin-top: 20px;
+    }
+    &__descr {
+        margin-left: 26px;
+        @include font($size: 1.6rem, $height: 2.9rem, $weight:400);
+        color: #060606;
+    }
+}

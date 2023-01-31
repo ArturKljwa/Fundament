@@ -1,0 +1,33 @@
+.About {
+    padding: 27px 0 0 0;
+    img {
+        margin-top: 38px;
+        width: 100%;
+    }
+    &__item {
+        margin-top: 64px;
+        display: flex;
+        &__descr {
+            font-family: Montserrat;
+            font-size: 20.9px;
+            line-height: 25px;
+            font-weight: 400;
+            color: #141514;
+        }
+&_number {
+    font-family: 'Dela Gothic One';
+    margin-right: 19px;
+        font-size: 58.4px;
+        line-height: 37px;
+        font-weight: 400;
+}
+    }
+    &_text {
+        width: 60%;
+        margin-top: 62px;
+        font-size: 14px;
+        line-height: 37px;
+        font-weight: 400;
+        color: #050505
+    }
+}

@@ -1,0 +1,70 @@
+.choice {
+    &__item {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color:#fff;
+        border-radius: 20px;
+        margin-bottom: 25px;
+        &_wrapper {
+            margin: 27px 0 0 16px;
+        }
+        &_number {
+            font-weight: 700;
+            font-size: 65px;
+            opacity: 0.14;
+
+        }
+        &_text {
+            font-family: 'Montserrat';
+            margin-top: 13px;
+            font-size: 12px;
+            line-height: 12px;
+            font-weight: 400;
+            color: #161616;
+        }
+    }
+&__descr {
+    width: 63%;
+}
+&__form {
+    width: 33%;
+    box-shadow: 12px 23px 42px 9px rgba(193,216,208,0.44);
+    background-color:#fff;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding: 36px 54px 40px 44px;
+    &_title {
+        font-family: 'Dela Gothic One';
+        font-size: 20.9px;
+        line-height: 33px;
+        font-weight: 400;
+        text-transform: uppercase;
+        color: #181818;
+    }
+    &_subtitle {
+        margin-top: 37px;
+        font-size: 16px;
+        line-height: 33px;
+        font-weight: 400;
+        color: #181818;
+    }
+    &_phone {
+        margin-top: 46px;
+        text-align: center;
+        width: 325px;
+        height: 76px;
+        box-shadow: inset -1px 8px 16px 0px rgba(0,0,0,0.05);
+        border: none;
+    }
+    &_text {
+        margin-top: 30px;
+        text-align: center;
+        font-size: 16.7px;
+        line-height: 25px;
+        font-weight: 400;
+        color: #181818;
+    }
+}
+
+}

@@ -1,0 +1,84 @@
+.question {
+    padding: 145px 0 0 0;
+    &__item {
+        width: 45%;
+        margin-top: 74px;
+    }
+    &__list {
+        list-style: none;
+        &_item {
+
+            display: flex;
+            margin-bottom: 38px;
+            align-items:center;
+        }
+        &_background {
+            position: relative;
+            padding: 23px 57px 16px 86px;
+            margin-right: 20px;
+            background-color: #fff;
+                font-size: 16.7px;
+                line-height: 25px;
+                font-weight: 400;
+                color: #050505;
+                border-radius: 30px
+
+        }
+        &_background:before {
+                content: '';
+                position: absolute;
+                top: 30px;
+                left: 25px;
+                width: 29px;
+                height: 29px;
+                background-image: url('../../img/icons/arrows.png')
+
+        }
+        &_number {
+            font-family: 'Dela Gothic One';
+            font-size: 25px;
+            line-height: 37px;
+            font-weight: 400;
+        }
+    }
+    &__mens {
+        position: relative;
+        width: 40%;
+        &_title {
+            text-align: center;
+            font-family: 'Montserrat';
+            font-size: 25px;
+            line-height: 37px;
+            font-weight: 700;
+            color: #131313;
+
+        }
+        &_subtitle {
+            text-align: center;
+             font-family: 'Montserrat';
+            font-size: 25px;
+            line-height: 37px;
+            font-weight: 400;
+            color: #131313;
+        }
+        img {
+            height: 119%;
+            margin-top: -209px;
+            margin-left: 263px;
+            position: inherit;
+            z-index: 2;
+        }
+    }
+    &__mens::before {
+        content: '';
+        display: block;
+        position: absolute;
+        width: 145%;
+        height: 98%;
+        top:55px;
+        right: -266px;
+        background-image: url('../../img/question/background.png');
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+}

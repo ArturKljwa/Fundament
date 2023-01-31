@@ -1,0 +1,32 @@
+.funfoundation {
+    padding: 92px 0 0 0;
+    &__img img {
+        margin-left: 40px;
+        width: 110%;
+
+    }
+    &__content {
+        width: 40%;
+        margin-top: 48px;
+    }
+    &__descr {
+        list-style: none;
+        &-item {
+            position: relative;
+            @include font($size: 1.6rem, $height: 2.9rem, $weight:400);
+            margin-bottom: 40px;
+        }
+        &-item::before {
+            position: absolute;
+            content: '';
+            display: block;
+            width: 23px;
+            height: 23px;
+            background-image: url('../../img/icons/checkpox.png');
+            top: 17px;
+            left: -41px;
+
+        }
+
+    }
+}
